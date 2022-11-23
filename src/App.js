@@ -3,19 +3,18 @@ import "./App.css";
 import  Card  from './compount/card';
 import NAVBAR from './nav bar/index';
 
-{/* <AiOutlineHeart/> */}
-// import{Icon}
+
 
 function app() {
   return(
 <div>
   <header>
-{/* <IconName/> */}
-<h1>
-jdkjhj
 
-</h1>
+
+
 <NAVBAR/>
+<div className="conatiner">
+
 <Card/>
 <br />
 <Card/>
@@ -25,8 +24,10 @@ jdkjhj
 <br />
 <Card/>
 
+</div>
   </header>
 </div>
+
   );
 }
 

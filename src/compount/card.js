@@ -5,8 +5,7 @@ import  {AiOutlineHeart}  from "react-icons/ai";
 
 function BasicExample() {
   return (
-    // <div>
-    //   <div/>
+   
     <Card style={{ width: "20rem", height: "24rem" }}>
       <Card.Img
         variant="bottom"
